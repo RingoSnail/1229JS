@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Architecture</title>
+    <style type="text/css">
+        body{background-image:url(miaomiao.jpg);
+             background-size:100% 100%;
+            height:100%;
+        }
+        html{
+            height:100%;
+        }
+        @keyframes myfirst {
+            from{opacity: 0}
+            to{opacity: 100}
+        }
+        h1,p {
+            animation: myfirst 3s infinite;
+        }
+    </style>
+</head>
+<body>
+<h1>苗苗</h1>
+<p>苗苗新年快乐！</p>
+</body>
+</html>
