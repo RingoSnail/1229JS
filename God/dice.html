@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+<!--<img src="images/1.jpg">-->
+<p id="number"></p>
+</body>
+</html>
+<script>
+    var a = Math.random();
+    a = Math.floor(a * 6) + 1;
+    document.write(a);
+    document.write("<img src=\"images/" + a + ".jpg\">");
+    document.getElementById("number").innerHTML = "筛子是" + a + "";
+</script>
